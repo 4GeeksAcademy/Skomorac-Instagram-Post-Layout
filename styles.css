@@ -20,20 +20,22 @@ body {
 }
 
 .icon {
-  margin-right: 10px;
-  font-size: 50px;
+  font-size: 40px;
   position: relative;
 }
 
 .post-header .text {
-  margin-left: 60px;
-  font-weight: bold;
+  margin-left: 40px;
   position: absolute;
 }
 
 .title {
   margin-top: 0px; /* Adjust the value as needed */
   margin-bottom: 0px;
+}
+
+.text p {
+  font-weight: 500;
 }
 
 .vertical-dots-button {
@@ -64,17 +66,17 @@ body {
 .post-icons {
   display: flex;
   justify-content: space-between;
-  font-size: 50px;
+  font-size: 40px;
   position: relative;
   height: 50px;
 }
 
 .icon-comment {
   position: absolute;
-  padding-left: 70px;
+  padding-left: 50px;
 }
 
 .icon-plane {
   position: absolute;
-  padding-left: 140px;
+  padding-left: 100px;
 }
