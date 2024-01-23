@@ -44,6 +44,11 @@ body {
   position: absolute;
 }
 
+.title {
+  margin-top: 0px; /* Adjust the value as needed */
+  margin-bottom: 0px;
+}
+
 .post-img img {
   max-width: 100%;
 }
@@ -59,7 +64,6 @@ body {
   position: relative;
   height: 50px;
 }
-
 
 .icon-comment {
   position: absolute;
