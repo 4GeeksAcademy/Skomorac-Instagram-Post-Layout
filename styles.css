@@ -9,6 +9,8 @@ body {
   max-width: 500px;
   margin: 50px auto; /* Center the element horizontally */
 }
+
+/* Styles for header */
 .post-header {
   display: flex;
   justify-content: space-between;
@@ -23,9 +25,20 @@ body {
   position: relative;
 }
 
+.post-header .text {
+  margin-left: 60px;
+  font-weight: bold;
+  position: absolute;
+}
+
+.title {
+  margin-top: 0px; /* Adjust the value as needed */
+  margin-bottom: 0px;
+}
+
 .vertical-dots-button {
-  background-color: aliceblue; /* Button background color */
-  color: black; /* Button text color */
+  background-color: aliceblue;
+  color: black;
   border: none;
   cursor: pointer;
   display: flex;
@@ -38,21 +51,12 @@ body {
   margin-bottom: -30px; /* Adjust the margin between dots as needed */
 }
 
-.post-header .text {
-  margin-left: 60px;
-  font-weight: bold;
-  position: absolute;
-}
-
-.title {
-  margin-top: 0px; /* Adjust the value as needed */
-  margin-bottom: 0px;
-}
-
+/* Styles for post image */
 .post-img img {
   max-width: 100%;
 }
 
+/* Styles for post body */
 .post-body {
   padding: 20px;
 }
